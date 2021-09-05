@@ -22,6 +22,7 @@ $ export AWS_DEFAULT_PROFILE=assume
 ```
 
 ### e.g. updated ~/.aws/credentials
+```config
 [default]
 aws_access_key_id = XXXXXXXXXXXXXXXXXXX
 aws_secret_access_key = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -30,6 +31,7 @@ aws_secret_access_key = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 aws_access_key_id = YYYYYYYYYYYYYYYYYYYYYYY
 aws_secret_access_key = yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 aws_session_token = yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+```
 
 ## TODO
 - automatic profile change (by changing `AWS_DEFAULT_PROFILE`)
