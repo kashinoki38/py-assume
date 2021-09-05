@@ -21,6 +21,17 @@ After execute `py-assume.py`, you need to change profile to `assume` by using li
 $ export AWS_DEFAULT_PROFILE=assume
 ```
 
+## How to confirm current role
+```bash
+$ aws sts get-caller-identity
+{
+    "UserId": "YYYYYYYYYYYYYYYYYYYYYY:AWSCLI-Session",
+    "Account": "1234567890",
+    "Arn": "arn:aws:sts::1234567890:assumed-role/<RoleName>/AWSCLI-Session"
+}
+
+```
+
 ### e.g. updated ~/.aws/credentials
 ```config
 [default]
