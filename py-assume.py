@@ -49,5 +49,7 @@ if __name__ == '__main__':
     home_path = os.path.expanduser("~")
     if len(sys.argv)!=3:
         print('Error: Invalid parameters', file=sys.stderr)
+        print('Following parameters are required.')
+        print('$ python3 py-assume.py <aws account id> <role name to assume>')
         sys.exit(1)
     assume(home_path, sys.argv[1], sys.argv[2])
