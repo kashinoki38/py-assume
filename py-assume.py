@@ -41,7 +41,7 @@ def assume(home_path, account_id, role_name):
         print(e)
         sys.exit(1)
 
-    print ('\nAdded or updated [assume] profile of ~/.aws/credentials with above assume key. Let\'s change profile to assume by below command.')
+    print ('\nSuccessfully added or updated [assume] profile of ~/.aws/credentials with above assume key. Let\'s change profile to assume by below command.')
     print ('$ export AWS_DEFAULT_PROFILE=assume')
 
 if __name__ == '__main__':
